@@ -1,11 +1,11 @@
-package dk.nikolaj.customer;
+package dk.nikolaj.branch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomerApplication {
+public class BranchApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CustomerApplication.class, args);
+        SpringApplication.run(BranchApplication.class, args);
     }
 }
